@@ -1,5 +1,5 @@
+import 'package:first_app/assignment/AssignmentWeek5.dart';
 import 'package:flutter/material.dart';
-
 void main() {
   runApp(const MyApp());
 }
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         ),
       ),
       debugShowCheckedModeBanner: false,
-      home: MyWidget(),
+      home:Assignmentweek5(), //เปลี่ยนหน้าหลัก
     );
   }
 }
@@ -134,3 +134,5 @@ class MyWidget extends StatelessWidget {
     );
   }
 }
+
+
