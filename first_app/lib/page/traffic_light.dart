@@ -11,12 +11,6 @@ class traffic_lighStateState extends State<traffic_lighState> {
  double _opacity = 1.0;
  int count = 0;
 
-  void _toggleOpacity() {
-    setState(() {
-      _opacity = _opacity == 1.0 ? 0.2 : 1.0;
-    });
-  }
-
   void _nextLight(){
     setState(() {
       count = (count + 1) % 3;
