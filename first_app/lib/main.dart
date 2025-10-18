@@ -1,4 +1,4 @@
-import 'package:first_app/assignment/AssignmentWeek5.dart';
+import 'package:first_app/page/simple_custom_widget_profile_card.dart';
 import 'package:flutter/material.dart';
 void main() {
   runApp(const MyApp());
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         ),
       ),
       debugShowCheckedModeBanner: false,
-      home:Assignmentweek5(), //เปลี่ยนหน้าหลัก
+      home:SimpleCustomWidgetProfileCard(), //เปลี่ยนหน้าหลัก
     );
   }
 }
